@@ -6,15 +6,15 @@
 <meta charset="UTF-8">
 <title>Cardápio Web</title>
 <title>Bootstrap Example</title>
-<meta charset="utf-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script type="text/javascript" src="js/funcoes.js"></script>
 
 </head>
 <body>
@@ -30,7 +30,7 @@
 					<div class="col-5">
 						<div class="input-group">
 							<div class="input-group-prepend"
-								onclick="this.parentNode.querySelector('input[type=number]').stepDown();">
+								onclick="this.parentNode.querySelector('input[type=number]').stepDown(); atualizar('prd-1',3.90);">
 								<div class="input-group-text">
 									<i class="fa fa-chevron-down"></i>
 								</div>
@@ -38,7 +38,7 @@
 							<input id="prd-1" name="prd-1" type="number" class="form-control"
 								value="0" min="0">
 							<div class="input-group-append"
-								onclick="this.parentNode.querySelector('input[type=number]').stepUp();">
+								onclick="this.parentNode.querySelector('input[type=number]').stepUp(); atualizar('prd-1',3.90);">
 								<div class="input-group-text">
 									<i class="fa fa-chevron-up"></i>
 								</div>
@@ -57,15 +57,15 @@
 					<div class="col-5">
 						<div class="input-group">
 							<div class="input-group-prepend"
-								onclick="this.parentNode.querySelector('input[type=number]').stepDown();">
+								onclick="this.parentNode.querySelector('input[type=number]').stepDown(); atualizar('prd-2',3.90);">
 								<div class="input-group-text">
 									<i class="fa fa-chevron-down"></i>
 								</div>
 							</div>
-							<input id="prd-1" name="prd-1" type="number" class="form-control"
+							<input id="prd-2" name="prd-2" type="number" class="form-control"
 								value="0" min="0">
 							<div class="input-group-append"
-								onclick="this.parentNode.querySelector('input[type=number]').stepUp();">
+								onclick="this.parentNode.querySelector('input[type=number]').stepUp(); atualizar('prd-2',3.90);">
 								<div class="input-group-text">
 									<i class="fa fa-chevron-up"></i>
 								</div>
@@ -80,7 +80,8 @@
 	</div>
 	
 	
-				<button name="submit" type="submit" class="btn btn-primary confirmar">Confirmar R$ 0,00</button>
-
+				<button id="bt-confirmar" disabled="disabled" name="submit" type="submit" class="btn btn-primary confirmar">Confirmar R$
+				<span id="span-confirmar">0.00</span>
+				</button>
 </body>
 </html>
