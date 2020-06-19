@@ -1,0 +1,76 @@
+insert into cartegoria(nome) values('HORTALIÇAS E LEGUMES'); 
+insert into cartegoria(nome) values('FRUTAS'); 
+insert into cartegoria(nome) values('ERVAS E TEMPEROS'); 
+insert into cartegoria(nome) values('DIVERSOS'); 
+	
+Alface America Pé   	R$ 3,90
+Alface Crespa Pé      	R$ 3,90
+Alho Poró 300g        	R$ 6,00
+Abóbora 500g            	R$ 5,50
+Abóbora KG              	R$ 9,80
+Abobrinha Itália 500	R$ 7,00
+Abobrinha Itália KG 	R$ 13,00
+Batata Inglesa 500g 	R$ 8,50
+Batata Inglesa KG   	R$ 16,00
+Batata Doce 500g      	R$ 5,50
+Batata Doce KG        	R$ 9,80
+Beringela 500g        	R$ 6,50
+Beringela KG            	R$ 12,00
+Beterraba 500g        	R$ 5,50
+Beterraba KG            	R$ 9,80
+Cebola 500g             	R$ 8,00
+Cebola KG               	R$ 15,00
+Cebola Roxa 500g      	R$ 8,00
+Cebola Roxa KG        	R$ 15,00
+Cenoura 500g            	R$ 5,50
+Cenoura KG              	R$ 9,80
+Couve maço              	R$ 4,50
+Chuchu 500g             	R$ 4,50
+Chuchu KG               	R$ 8,00
+Mandioca s/casca 500	R$ 5,50
+Mandioca s/casca KG 	R$ 9,80
+Quiabo 500g             	R$ 5,50
+Quiabo KG               	R$ 9,80
+Repolho 500g            	R$ 5,50
+Repolho KG              	R$ 9,80
+Tomate salada 500g  	R$ 7,50
+Tomate salada KG      	R$ 14,00
+Tomate Italiano 500g	R$ 7,50
+Tomate Italiano KG  	R$ 14,00
+                        	
+
+                        	
+Abacate 500g            	R$ 5,50
+Abacate KG              	R$ 9,80
+Limão Taiti 500g      	R$ 4,50
+Limão Taiti KG        	R$ 8,00
+Limão Cravo 500g      	R$ 4,50
+Limão Cravo KG        	R$ 8,00
+Laranja Pêra 500g   	R$ 6,50
+Laranja Pêra KG       	R$ 12,00
+Mamão KG                	R$ 12,00
+Mexerica 500g         	R$ 5,00
+Mexerica KG             	R$ 9,00
+Banana Prata 500g   	R$ 5,50
+Banana Prata KG       	R$ 9,80
+Banana da Terra KG  	R$ 18,00
+Maracujá 500g         	R$ 7,50
+Maracujá KG             	R$ 14,00
+                        	
+     
+                        	
+Capim Santo 100g      	R$ 4,50
+Coentro e Ceb Maço  	R$ 4,50
+Cebolinha Maço        	R$ 4,50
+Salsinha Maço         	R$ 4,50
+Salsinha e ceb maço 	R$ 4,50
+Manjericão maço       	R$ 4,50
+Hortelã maço            	R$ 4,50
+Citronela maço        	R$ 4,50
+                        	
+
+                        	
+Geléia Morango 200g 	R$ 22,00
+Molho de Tomate 250g	R$ 22,00
+Ovos Caipiras 12un  	R$ 17,00
+Shimeji Desidratado Pacote R$16,00
