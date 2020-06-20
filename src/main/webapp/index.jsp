@@ -42,7 +42,7 @@
 									<i class="fa fa-chevron-down"></i>
 								</div>
 							</div>
-							<input id="prd-1" name="prd-1" type="number" class="form-control"
+							<input id="prd-<%=p.getId() %>" name="prd-<%=p.getId() %>" type="number" class="form-control"
 								value="0" min="0">
 							<div class="input-group-append"
 								onclick="this.parentNode.querySelector('input[type=number]').stepUp(); atualizar('prd-<%=p.getId()%>',<%=p.getPreco()%>);">
