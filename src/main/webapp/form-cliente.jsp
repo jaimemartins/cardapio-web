@@ -78,10 +78,10 @@
 						type="text" class="form-control">
 				</div>
 			</div>
-		</form>
-	</div>
-	<button id="bt-continuar" onclick="" type="submit" class="btn btn-primary confirmar">
-		Continuar
-	</button>
+		
+		</div>
+		<button id="bt-continuar" onclick="" type="submit"
+			class="btn btn-primary confirmar">Continuar</button>
+	</form>
 </body>
 </html> 

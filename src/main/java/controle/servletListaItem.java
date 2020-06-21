@@ -16,8 +16,7 @@ import javax.servlet.http.HttpSession;
 public class servletListaItem extends HttpServlet {
 	
 	@Override
-	protected void doPost(HttpServletRequest req, HttpServletResponse resp) 
-			throws ServletException, IOException {
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
 		StringBuffer sb = new StringBuffer();
 		String linha = null;
@@ -27,7 +26,9 @@ public class servletListaItem extends HttpServlet {
 				sb.append(linha);
 			}
 
-		} catch (Exception e) { }
+		} catch (Exception e) {
+			
+		}
 
 		System.out.println(sb.toString().replace("null,", ""));
 
