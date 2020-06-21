@@ -8,7 +8,11 @@ function atualizar(id, preco) {
 	total = quantidade * preco;
 	
 	// Objeto JavaScript conhecido como JSON
-	obj = {"id":id, "quantidade" :quantidade, "total":total}	
+	obj = {
+			"id":id,
+			"quantidade" :quantidade, 
+			"total":total
+	}	
 	lsItem[id] = obj;
 //	console.log(obj);
 	valorFinal();
@@ -28,5 +32,14 @@ function valorFinal(){
 	}else{
 		document.getElementById("bt-confirmar").setAttribute("disabled","disabled");
 	}
+	
+}
+
+function enviar() {
+	var xmlhttp = new XMLHttpRequest();
+	var url = "enviarListaItem";
+	xmlhttp.open("POST",url);
+	xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+	xmlhttp.send(JSON.stringfy(lsItem));
 	
 }
