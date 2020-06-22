@@ -20,9 +20,10 @@
 <script type="text/javascript" src="js/funcoes.js"></script>
 </head>
 <body>
+	<form method="post" action="servletCliente">
 	<h2 class="bg-dark text-white">Cardápio Web</h2>
 	<div class="container">
-		<form>
+		
 			<div class="form-group row">
 
 				<div class="col-12">
