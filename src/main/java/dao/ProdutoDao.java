@@ -22,6 +22,8 @@ public class ProdutoDao {
 				p.setNome(rs.getString("nome"));
 				p.setPreco(rs.getFloat("preco"));
 			}
+			pst.close();
+			conexao.close();
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
@@ -44,6 +46,8 @@ public class ProdutoDao {
 				p.setPreco(rs.getFloat("preco"));
 				ls.add(p);
 			}
+			pst.close();
+			conexao.close();
 			
 		} catch (Exception e) {
 			// TODO: handle exception
